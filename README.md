@@ -1,4 +1,4 @@
-
+https://ablk3k.github.io/web2-assignment2/
 
 **Project**: Simple Weather App (backend + static frontend)
 
@@ -74,4 +74,5 @@ curl http://localhost:3000/country/GB
 **Files**
 - Frontend entry: [index.html](index.html)
 - Frontend logic: [script.js](script.js)
+
 - Server & API proxy: [server.js](server.js)
