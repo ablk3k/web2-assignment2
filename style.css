@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6c8cff;
+}
+
+button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #6c8cff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #5875e8;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 16px;
+  margin-top: 15px;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #444;
+}
+
+.card p {
+  margin: 6px 0;
+  color: #555;
+}
+
+@media (max-width: 500px) {
+  .search {
+    flex-direction: column;
+  }
+}
